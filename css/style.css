@@ -1,0 +1,241 @@
+*
+	{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+	}
+	
+.container
+	{
+	width:80%;
+	margin:0 auto;
+	}
+	
+.sec
+	{
+	padding:40px 0;
+	}
+
+.row
+	{
+	display:flex;
+	gap:2%;
+	}	
+	
+.col
+	{
+	width:25%;
+	}
+
+.box
+	{
+	display:flex;
+	padding:20px 0px;
+	}
+	
+.box-1
+	{
+	display:flex;
+	background-color:green;
+	padding:20px;
+	}
+	
+.icon
+	{
+	padding-right:15px;
+	color:#aba3a3;
+	}
+	
+	
+.icon i
+	{
+	font-size:35px;
+	color:#5a5454;
+	}
+	
+	
+.para p
+	{
+	font-size:20px;
+	color:#5a5454;
+	}
+	
+	
+.row-1
+	{
+	display:flex;
+	padding:40px 0;
+	gap:2%;
+	}
+
+img
+	{
+	width:100%;
+	vertical-align:middle;
+	}
+	
+.col-1
+	{
+	width:50%;
+	}
+	
+.col-1 h2
+	{
+	margin-bottom:20px;
+	font-size:30px;
+	font-weight:400;
+	}
+	
+.col-1 p
+	{
+	margin-bottom:20px;
+	font-size:15px;
+	line-height:1.8;
+	color:#aba3a3;	
+	}
+	
+ul li
+	{
+	list-style-type:none;
+	line-height:2.5;
+	}
+	
+ul li i
+	{
+	color:green;
+	padding-right:15px;
+	}
+		
+ul li span
+	{
+	color:#aba3a3;
+	}
+	
+	
+
+ /* mobile device */
+ @media(min-width:320px)
+	{
+		.row,.row-1
+			{
+			display: flex;
+			flex-wrap: wrap;
+			}
+		
+		.col,.col-1
+			{
+			width: 100%;
+			}
+		
+			
+    }	
+       
+ 
+ /* tab/ipad */
+ @media(min-width:699px)
+	{
+       .row,.row-1
+			{
+			display: flex;
+			gap: 2%;
+			flex-wrap: nowrap;
+			align-items: center;
+			}
+	   
+       .col	
+			{
+			width:50%;
+			}	
+		.col-1
+			{
+			width:50%;
+			}
+	}
+       
+
+  /* Desktop/laptop */
+  @media(min-width:1020px)
+	{
+        .row,.row-1
+			{
+			display: flex;
+			gap: 2%;
+			flex-wrap: nowrap;
+			align-items: center;
+		}
+		.col
+			{
+			width:25%;
+			}	
+		.col-1
+			{
+			width:50%;
+			}
+		
+    }	
+	
+ /* mobile device */
+ @media(min-width:320px)
+	{
+		.row,.row-1
+			{
+			display: flex;
+			flex-wrap: wrap;
+			}
+		
+		.col,.col-1
+			{
+			width: 100%;
+			}
+		
+			
+    }	
+       
+ 
+ /* tab/ipad */
+ @media(min-width:699px)
+	{
+       .row,.row-1
+			{
+			display: flex;
+			gap: 2%;
+			flex-wrap: nowrap;
+			align-items: center;
+			}
+	   
+       .col	
+			{
+			width:50%;
+			}	
+		.col-1
+			{
+			width:50%;
+			}
+	}
+       
+
+  /* Desktop/laptop */
+  @media(min-width:1020px)
+	{
+        .row,.row-1
+			{
+			display: flex;
+			gap: 2%;
+			flex-wrap: nowrap;
+			align-items: center;
+		}
+		.col
+			{
+			width:25%;
+			}	
+		.col-1
+			{
+			width:50%;
+			}
+		
+    }	
+	
+		
+	
+	
